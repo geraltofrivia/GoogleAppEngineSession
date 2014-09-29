@@ -1,0 +1,16 @@
+Goto console of Google App Engine
+Sign In
+Create new application
+Enter a unique application ID (Which also doubles up as your URL: <your-app-name>.appspot.com)
+Enter a name to your project.
+Copy the application ID into the YAML File. (First Parameter)
+
+Your app is now ready to be uploaded
+Now, if you're on LINUX/UNIX
+  google-appengine/appcfg.py update <your-app-directory>
+  Enter your email ID when prompted
+  Enter your email ID's password when prompted
+  
+Windows users have a GUI based implementation of the same
+
+And your app is online, and good to go!
